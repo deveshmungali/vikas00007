@@ -1,0 +1,87 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,500;1,400&display=swap');
+.product #product-validator br {
+    display: none;
+}
+.product .product-validator h3#block-heading {
+    font-size: 20px;
+    margin: 0;
+    font-weight: 500;
+    line-height: 30px;
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: 1px;
+}
+
+.product input#zip {
+    width: 100%;
+    padding: 12px 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    letter-spacing: .5px;
+    font-family: Assistant;
+    line-height: 20px;
+    border: 1px solid #000000d4 !important;
+    margin: 10px 0;
+    outline: none;
+}
+
+input#zip:focus-visible {
+    border-color: #000000 !important;
+}
+div#product-validator button {
+    padding: 10px 15px;
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: .5px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+button#check {
+    background: #000 !important;
+    border-color: #000 !important;
+    border-radius: 4px;
+    color: #fff;
+}
+button#questionpopup {
+    background: #fff !important;
+    border-color: #000 !important;
+  
+    transition: all .2s ease-in-out;
+}
+button#questionpopup:hover{
+     background: #000 !important;
+    border-color: #fff !important;
+  
+    transition: all .2s ease-in-out;
+} */
+
+/* Your existing styles */
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+  z-index: 1000;
+}
+
+.popup-content {
+  text-align: center;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  /* Adjust styles for smaller screens */
+  .popup {
+    width: 80%;
+  }
+}
